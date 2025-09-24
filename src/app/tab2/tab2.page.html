@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">Catálogos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Carnes</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Encuentra cortes frescos y de calidad para todas tus recetas.
+    </ion-card-content>
+    <ion-button expand="block" color="secondary" [routerLink]="['/tabs/carnes']">
+      Ver catálogo
+    </ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Lácteos</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Quesos, leche y yogurt de las mejores marcas.
+    </ion-card-content>
+    <ion-button expand="block" color="secondary" [routerLink]="['/tabs/lacteos']">
+      Ver catálogo
+    </ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Importados</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Productos especiales y gourmet de diferentes países.
+    </ion-card-content>
+    <ion-button expand="block" color="secondary" [routerLink]="['/tabs/importados']">
+      Ver catálogo
+    </ion-button>
+  </ion-card>
+
+</ion-content>
