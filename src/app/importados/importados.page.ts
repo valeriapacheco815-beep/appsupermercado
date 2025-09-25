@@ -24,7 +24,7 @@ type Producto = { nombre: string; descripcion: string; precio: string; imagen: s
 })
 export class ImportadosPage implements OnInit {
   query = '';
-  private readonly API = 'http://localhost:3000/api/importados';
+  private readonly API = 'http://192.168.100.244:3000/api/importados';
 
   // Tu lista ORIGINAL (mantiene la vista con imagen/descr./precio)
   productos: Producto[] = [

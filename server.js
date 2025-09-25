@@ -168,6 +168,6 @@ for (const t of TABLES) {
 
 // ==== Inicio ====
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, '0.0.0.0', () =>
+app.listen(PORT, '0.0.0.0', () => 
   console.log(`API lista en http://0.0.0.0:${PORT}`)
 );

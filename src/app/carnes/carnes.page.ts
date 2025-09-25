@@ -39,7 +39,7 @@ export class CarnesPage implements OnInit {
   filtered: any[] = [];
 
   // 👉 Tu API (cambia localhost por la IP de tu PC si pruebas en teléfono)
-  private readonly API = 'http://localhost:3000/api/carnes';
+  private readonly API = 'http://192.168.100.244:3000/api/carnes';
 
   ngOnInit() {
     // Vista original al entrar

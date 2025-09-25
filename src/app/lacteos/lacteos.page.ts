@@ -50,7 +50,7 @@ export class LacteosPage implements OnInit {
   query = '';
 
   // 👉 Ajusta si tu backend corre en otra IP/puerto
-  private readonly API = 'http://localhost:3000/api/lacteos';
+  private readonly API = 'http://192.168.100.244:3000/api/lacteos';
 
   // Tu arreglo ORIGINAL (la vista usa SIEMPRE esta propiedad)
   productos: Producto[] = [
