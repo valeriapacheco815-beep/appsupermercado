@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">appsuper</string>
+    <string name="title_activity_main">appsuper</string>
+    <string name="package_name">com.valeria.appsuper</string>
+    <string name="custom_url_scheme">com.valeria.appsuper</string>
+</resources>
